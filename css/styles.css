@@ -38,12 +38,12 @@ h2,
 h3,
 h4,
 h5,
-h6,
-p {
+h6 {
   margin: 0;
 }
 
-img {
+img,
+a {
   display: block;
 }
 
@@ -315,6 +315,8 @@ img {
   letter-spacing: 0.03em;
 }
 /* ===============END ABOUT==============*/
+
+
 /* ===============TEAM==============*/
 .team {
   padding-bottom: 94px;
@@ -354,14 +356,16 @@ img {
 }
 
 .team-developer {
+  margin-bottom: 10px;
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+
 .team-developer-direction {
-  margin-top: 10px;
+ margin: 0px;
 
   font-size: 16px;
   line-height: 1.19px;
@@ -376,27 +380,93 @@ img {
   align-items: center;
   justify-content: center;
 
-  margin-bottom: 30px;
   margin-top: 16px;
+
 }
 
-.social-list {
-  display: block;
-  align-items: center;
-  justify-content: center;
-}
-
-.social-link {
-  display: inline;
-}
 
 .social-link-icon {
+
   width: 44px;
   height: 44px;
 }
 
-
 /* ===============END TEAM==============*/
+
+
+/* ===============CLIENTS==============*/
+
+.clients-title {
+  text-align: center;
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+  margin-top: -30px;
+  margin-left: -30px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.clients-list-link {
+  flex-basis: calc(100% / 6- 30px);
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  width: 170px;
+  height: 90px;
+}
+
+.clients-list-link:hover,
+.clients-list-link:focus {
+  border: 1px solid #2196F3;
+}
+.clients-icon:hover,
+.clients-icon:focus {
+  fill: red;
+}
+
+.icon-1 {
+  width: 44px;
+  height: 48px;
+}
+.icon-2 {
+  width: 40px;
+  height: 52px;
+}
+.icon-3 {
+  width: 40px;
+  height: 42px;
+}
+.icon-4 {
+  width: 80px;
+  height: 42px;
+}
+.icon-5 {
+  width: 60px;
+  height: 48px;
+}
+.icon-6 {
+  width: 88px;
+  height: 46px;
+}
+
+
+
+/* ===============END CLIENTS==============*/
+
+
+
+
 /* ===============FOOTER==============*/
 .footer {
   background-color: #2f303a;
@@ -503,6 +573,12 @@ img {
 
   margin-bottom: 30px;
 }
+
+.category-items:hover,
+.category-items:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 
 .category-container {
 
