@@ -238,6 +238,9 @@ img {
 /* ===============END HERO==============*/
 
 /* ===============FEATURES==============*/
+.features {
+  padding: 0%;
+}
 
 .features-area {
   margin-bottom: 94px;
@@ -254,8 +257,24 @@ img {
 
 .features-item {
   flex-basis: calc(100%-90px) / 4;
-  margin-top: var(--features-margtop);
   margin-left: var(--features-margleft);
+}
+
+.features-container {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-color: #F5F4FA;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 30px;
+}
+
+.features-icons {
+  width: 70px;
+  height: 70px;
 }
 
 .features-title {
