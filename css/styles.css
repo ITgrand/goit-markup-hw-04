@@ -55,6 +55,7 @@ a {
 }
 
 .header-container {
+  max-height: 80px;
   display: flex;
   align-items: center;
 }
@@ -220,6 +221,9 @@ a {
 }
 
 .hero-btn {
+  width: 200px;
+  height: 50px;
+  padding: 0;
   margin-bottom: 200px;
 }
 
