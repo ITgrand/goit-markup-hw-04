@@ -47,6 +47,12 @@ a {
   display: block;
 }
 
+ul,
+ol {
+  margin: 0px;
+  padding: 0px;
+}
+
 
 /* ===============END UTILITES==============*/
 
@@ -70,9 +76,6 @@ a {
 }
 
 .web {
-  padding-top: 24px;
-  padding-bottom: 25px;
-
   font-family: var(--secondary-font);
   font-size: 26px;
   line-height: 1.19;
@@ -119,6 +122,7 @@ a {
 }
 
 .communication-list {
+  margin: 0px;
   display: flex;
   align-items: center;
   margin-left: auto;
@@ -392,9 +396,9 @@ a {
 
 
 .social-link-icon {
-
-  width: 44px;
-  height: 44px;
+  width: 20px;
+  height: 20px;
+  fill: #AFB1B8;
 }
 
 /* ===============END TEAM==============*/
@@ -487,14 +491,11 @@ a {
 /* ===============FOOTER==============*/
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-.footer-title-container {
-  padding-top: 60px;
-}
 .footer-studio {
-  padding-top: 24px;
-  padding-bottom: 25px;
   font-family: var(--secondary-font);
   font-weight: bold;
   font-size: 26px;
@@ -511,13 +512,14 @@ a {
 
 .address-list {
   display: block;
-  margin: 0px;
+  margin: auto;
   padding: 0px;
 
   margin-top: 20px;
 
 }
 .address-link {
+  display:inline-block;
   font-size: 14px;
   line-height: 1.71px;
   letter-spacing: 0.03em;
@@ -532,6 +534,36 @@ a {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+
+/*.social-container {
+  display: flex;
+}*/
+
+.social-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.footer-social-list {
+  display: flex;
+}
+
+.footer-social-link .social-link-icon {
+  fill: #ffffff;
+}
+
+.footer-social-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color:rgba(255, 255, 255, 0.1);
+}
+
+
 
 /* ===============PORTFOLIO==============*/
 
