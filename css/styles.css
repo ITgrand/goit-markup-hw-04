@@ -43,7 +43,8 @@ h6 {
 }
 
 img,
-a {
+a,
+p {
   display: block;
 }
 
@@ -387,13 +388,38 @@ ol {
   justify-content: center;
 
   margin-top: 16px;
+  margin-bottom: 30px;
+}
+
+.social-list:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  fill: #afb1b8;
+}
+
+.social-link:hover,
+.social-link:focus {
+  border-radius: 50%;
+  background-color: var(--btm-color);
+  fill: #ffffff;
 }
 
 .social-link-icon {
   width: 20px;
   height: 20px;
-  fill: #afb1b8;
 }
+
+/*.social-link-icon:hover,
+.social-link-icon:focus {
+  fill: #ffffff;
+}/*
 
 /* ===============END TEAM==============*/
 
