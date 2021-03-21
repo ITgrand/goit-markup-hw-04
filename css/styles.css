@@ -263,7 +263,7 @@ ol {
 }
 
 .features-item {
-  flex-basis: calc(100%-90px) / 4;
+  flex-basis: calc((100%-90px) / 4);
   margin-left: var(--features-margleft);
 }
 
