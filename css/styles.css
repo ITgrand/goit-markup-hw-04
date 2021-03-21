@@ -53,7 +53,6 @@ ol {
   padding: 0px;
 }
 
-
 /* ===============END UTILITES==============*/
 
 /* ===============HEADER==============*/
@@ -151,7 +150,6 @@ ol {
 .mail-link:focus {
   color: var(--btm-color);
   fill: var(--btm-color);
-
 }
 
 .icon-mail {
@@ -161,12 +159,10 @@ ol {
   fill: currentColor;
 }
 
-
 .tel-link {
   display: flex;
   justify-content: center;
   align-items: center;
-
 
   padding-top: 32px;
   padding-bottom: 32px;
@@ -201,11 +197,12 @@ ol {
 .hero-area {
   background-color: #2f303a;
   background-image: linear-gradient(
-    rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)),
-   url("/images/hero/bg.jpg");
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("/images/hero/bg.jpg");
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
   text-align: center;
 }
 
@@ -273,7 +270,7 @@ ol {
   display: flex;
   width: 270px;
   height: 120px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   border-radius: 4px;
   align-items: center;
   justify-content: center;
@@ -325,7 +322,6 @@ ol {
 }
 /* ===============END ABOUT==============*/
 
-
 /* ===============TEAM==============*/
 .team {
   padding-bottom: 94px;
@@ -375,7 +371,7 @@ ol {
 }
 
 .team-developer-direction {
- margin: 0px;
+  margin: 0px;
 
   font-size: 16px;
   line-height: 1.19px;
@@ -391,18 +387,15 @@ ol {
   justify-content: center;
 
   margin-top: 16px;
-
 }
-
 
 .social-link-icon {
   width: 20px;
   height: 20px;
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 
 /* ===============END TEAM==============*/
-
 
 /* ===============CLIENTS==============*/
 
@@ -420,7 +413,7 @@ ol {
 .clients-list {
   margin: 0;
   padding: 0;
- 
+
   display: flex;
   text-align: center;
 }
@@ -428,13 +421,11 @@ ol {
 .clients-list-link {
   width: 170px;
   height: 90px;
-
 }
 
-.clients-list-link:not(:last-child){
+.clients-list-link:not(:last-child) {
   margin-right: 30px;
 }
-
 
 .clients-link {
   width: 100%;
@@ -452,8 +443,6 @@ ol {
   border-color: var(--btm-color);
   fill: var(--btm-color);
 }
-
-
 
 .icon-1 {
   width: 44px;
@@ -481,18 +470,22 @@ ol {
   height: 46px;
 }
 
-
-
 /* ===============END CLIENTS==============*/
-
-
-
 
 /* ===============FOOTER==============*/
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-item-container {
+  width: 230px;
+  margin-right: 70px;
 }
 
 .footer-studio {
@@ -514,12 +507,11 @@ ol {
   display: block;
   margin: auto;
   padding: 0px;
-
   margin-top: 20px;
-
 }
+
 .address-link {
-  display:inline-block;
+  display: inline-block;
   font-size: 14px;
   line-height: 1.71px;
   letter-spacing: 0.03em;
@@ -535,9 +527,10 @@ ol {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/*.social-container {
-  display: flex;
-}*/
+.social-container {
+  height: 100%;
+  padding-top: 12px;
+}
 
 .social-title {
   font-weight: bold;
@@ -545,25 +538,35 @@ ol {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .footer-social-list {
   display: flex;
+  margin-top: 20px;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #2196f3;
 }
 
 .footer-social-link .social-link-icon {
   fill: #ffffff;
 }
+.footer-social-links:not(:last-child) {
+  margin-right: 10px;
+}
 
 .footer-social-link {
+  display: flex;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color:rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
+  align-items: center;
+  justify-content: center;
 }
-
-
 
 /* ===============PORTFOLIO==============*/
 
@@ -626,12 +629,11 @@ ol {
 
 .category-items:hover,
 .category-items:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-
 .category-container {
-
   border: 1px solid #eeeeee;
   border-top: none;
   max-width: 370px;
